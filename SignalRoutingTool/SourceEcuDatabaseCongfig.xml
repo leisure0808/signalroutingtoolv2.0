@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- signalNum:报文中包含需要转发的信号个数 -->
+<!-- unsigned:表示该信号是否为无符号数 -->
+<!-- funFlag 00:无转换   1X:仅单位转换    2X:特定公式转换 -->
+<!-- 无转换funFlag 00：直接路由不需要转换  01：正负转换  02：数据映射变换，比如原始数据{0，1，2}转换为对应数据{2，1，3} -->
+<!-- 单位转换funFlag 10：km/h->m/s 11：rad/s->deg/s -->
+<!-- 公式转换20：pauseSingal->yawRate 21:difRearWheelSpeed->yawRate -->
+<!-- 目前支持以下信号的转发，信号名称填写请以下面的名称为准 -->
+<!-- signal name:yawRate,Vspeed,PulseFL,pulseFR,PulseRL,PulseRR -->
+<!-- FrontLeftDoor,FrontRightDoor,RearRightDoor,RearLeftDoor,RightTurn,LeftTurn,GearStatus,Wiper,TemperatureOutside -->
+<!-- LRwheelSpeed,RRwheelSpeed  -->
+<!-- LongitudinalACC,LateralACC -->
+<!-- SteerWheelAngle -->
+<dbc>
+	<message id="0x180" dlc="8" signalNum="1">
+		<signal name="SteerWheelAngle" startBit="8" len="16" factor="0.1" offset="0" funFlag="00" unsigned="False"/>
+	</message>
+	<message id="0x218" dlc="8" signalNum="1">
+		<signal name="Vspeed" startBit="40" len="13" factor="0.056" offset="0" funFlag="10" unsigned="True"/>
+	</message>
+	<message id="0x268" dlc="8" signalNum="1">
+		<signal name="GearStatus" startBit="20" len="4" factor="1" offset="0" funFlag="02" unsigned="True"/>
+	</message>
+	<message id="0x270" dlc="8" signalNum="1">
+		<signal name="TemperatureOutside" startBit="0" len="8" factor="0.5" offset="-41" funFlag="00" unsigned="True"/>
+	</message>
+	<message id="0x278" dlc="8" signalNum="3">
+		<signal name="LongitudinalACC" startBit="38" len="10" factor="0.03125" offset="-16" funFlag="00" unsigned="True"/>
+		<signal name="LateralACC" startBit="16" len="8" factor="0.1" offset="-12.7" funFlag="00" unsigned="True"/>
+		<signal name="yawRate" startBit="40" len="14" factor="0.01" offset="-81.91" funFlag="11" unsigned="True"/>
+	</message>
+	<message id="0x290" dlc="8" signalNum="2">
+		<signal name="RightTurn" startBit="46" len="2" factor="1" offset="0" funFlag="02" unsigned="True"/>
+		<signal name="LeftTurn" startBit="46" len="2" factor="1" offset="0" funFlag="02" unsigned="True"/>
+	</message>
+</dbc>

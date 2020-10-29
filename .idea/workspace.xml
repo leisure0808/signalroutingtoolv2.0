@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="79065465-9616-4fac-8aa3-e9ca49127cc3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1i5Xc8jzifrOnx90OiLTlSTlsBR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+  </component>
+  <component name="RunManager" selected="Python.signalRoutingTool">
+    <configuration name="VehicleSignalRoutingTool" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SignalRoutingTool" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ZLGdeveloped/zlgcan_demo/zlgcan_python/demo" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ZLGdeveloped/zlgcan_demo/zlgcan_python/demo/VehicleSignalRoutingTool.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="signalRoutingTool" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SignalRoutingTool" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/signalRoutingTool.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SignalRoutingTool" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.signalRoutingTool" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.VehicleSignalRoutingTool" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79065465-9616-4fac-8aa3-e9ca49127cc3" name="Default Changelist" comment="" />
+      <created>1601198502502</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601198502502</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="724" y="-731" width="820" height="340" key="#com.intellij.tools.ToolEditorDialog" timestamp="1603868363405">
+      <screen x="1" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="724" y="-731" width="820" height="340" key="#com.intellij.tools.ToolEditorDialog/0.0.1280.680/1.-1080.1920.1040@1.-1080.1920.1040" timestamp="1603868363405" />
+    <state width="954" height="466" key="DebuggerActiveHint" timestamp="1603346681036">
+      <screen x="1" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="954" height="466" key="DebuggerActiveHint/0.0.1280.680/1.-1080.1920.1040@1.-1080.1920.1040" timestamp="1603346681036" />
+    <state width="1899" height="173" key="GridCell.Tab.0.bottom" timestamp="1603870781914">
+      <screen x="1" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="173" key="GridCell.Tab.0.bottom/0.0.1280.680/1.-1080.1920.1040@1.-1080.1920.1040" timestamp="1603870781914" />
+    <state width="1259" height="173" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603850590293" />
+    <state width="1899" height="173" key="GridCell.Tab.0.center" timestamp="1603870781914">
+      <screen x="1" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="173" key="GridCell.Tab.0.center/0.0.1280.680/1.-1080.1920.1040@1.-1080.1920.1040" timestamp="1603870781914" />
+    <state width="1259" height="173" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603850590293" />
+    <state width="1899" height="173" key="GridCell.Tab.0.left" timestamp="1603870781914">
+      <screen x="1" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="173" key="GridCell.Tab.0.left/0.0.1280.680/1.-1080.1920.1040@1.-1080.1920.1040" timestamp="1603870781914" />
+    <state width="1259" height="173" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603850590293" />
+    <state width="1899" height="173" key="GridCell.Tab.0.right" timestamp="1603870781914">
+      <screen x="1" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="173" key="GridCell.Tab.0.right/0.0.1280.680/1.-1080.1920.1040@1.-1080.1920.1040" timestamp="1603870781914" />
+    <state width="1259" height="173" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603850590293" />
+    <state width="1899" height="299" key="GridCell.Tab.1.bottom" timestamp="1603870781911">
+      <screen x="1" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="299" key="GridCell.Tab.1.bottom/0.0.1280.680/1.-1080.1920.1040@1.-1080.1920.1040" timestamp="1603870781911" />
+    <state width="1259" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602308648071" />
+    <state width="1899" height="299" key="GridCell.Tab.1.center" timestamp="1603870781911">
+      <screen x="1" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="299" key="GridCell.Tab.1.center/0.0.1280.680/1.-1080.1920.1040@1.-1080.1920.1040" timestamp="1603870781911" />
+    <state width="1259" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1602308648071" />
+    <state width="1899" height="299" key="GridCell.Tab.1.left" timestamp="1603870781911">
+      <screen x="1" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="299" key="GridCell.Tab.1.left/0.0.1280.680/1.-1080.1920.1040@1.-1080.1920.1040" timestamp="1603870781911" />
+    <state width="1259" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1602308648071" />
+    <state width="1899" height="299" key="GridCell.Tab.1.right" timestamp="1603870781911">
+      <screen x="1" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="299" key="GridCell.Tab.1.right/0.0.1280.680/1.-1080.1920.1040@1.-1080.1920.1040" timestamp="1603870781911" />
+    <state width="1259" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1602308648071" />
+    <state x="462" y="-918" key="SettingsEditor" timestamp="1603868364377">
+      <screen x="1" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="462" y="-918" key="SettingsEditor/0.0.1280.680/1.-1080.1920.1040@1.-1080.1920.1040" timestamp="1603868364377" />
+    <state x="641" y="-736" key="com.intellij.ide.util.TipDialog" timestamp="1603501013888">
+      <screen x="1" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="641" y="-736" key="com.intellij.ide.util.TipDialog/0.0.1280.680/1.-1080.1920.1040@1.-1080.1920.1040" timestamp="1603501013888" />
+    <state x="427" y="225" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1602464331172" />
+    <state x="525" y="-824" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1603687895326">
+      <screen x="1" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="525" y="-824" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680/1.-1080.1920.1040@1.-1080.1920.1040" timestamp="1603687895326" />
+    <state x="624" y="-855" width="672" height="678" key="search.everywhere.popup" timestamp="1603700663723">
+      <screen x="1" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="624" y="-855" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/1.-1080.1920.1040@1.-1080.1920.1040" timestamp="1603700663723" />
+  </component>
+</project>

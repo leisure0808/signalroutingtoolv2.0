@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>544</width>
+    <height>389</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SignalRoutingTool_V2.0</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>signalrouting.ico</normaloff>signalrouting.ico</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="title">
+       <string>设备选择</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QCheckBox" name="device1_check">
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="text">
+          <string>设备1</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>CAN0：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QComboBox" name="device1_chn0_type">
+         <item>
+          <property name="text">
+           <string>CAN</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>CANFD</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="0" column="3">
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>Arb：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="4">
+        <widget class="QComboBox" name="device1_chn0_Arb">
+         <item>
+          <property name="text">
+           <string>50K</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>100K</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>125K</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>250K</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>500K</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>800K</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>1M</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="0" column="5">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>Data：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="6">
+        <widget class="QComboBox" name="device1_chn0_Data">
+         <item>
+          <property name="text">
+           <string>1M</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>2M</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>4M</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>5M</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="0" column="7">
+        <widget class="QCheckBox" name="device1_chn0_Rx">
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="text">
+          <string>Rx：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="8">
+        <widget class="QCheckBox" name="device1_chn0_Tx">
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="text">
+          <string>Tx：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QComboBox" name="device1_index">
+         <property name="minimumSize">
+          <size>
+           <width>30</width>
+           <height>19</height>
+          </size>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <item>
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>1</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>2</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>3</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>CAN1：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QComboBox" name="device1_chn1_type">
+         <item>
+          <property name="text">
+           <string>CAN</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>CANFD</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QLabel" name="label_8">
+         <property name="text">
+          <string>Arb：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="4">
+        <widget class="QComboBox" name="device1_chn1_Arb">
+         <item>
+          <property name="text">
+           <string>50K</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>100K</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>125K</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>250K</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>500K</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>800K</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>1M</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="1" column="5">
+        <widget class="QLabel" name="label_9">
+         <property name="text">
+          <string>Data：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="6">
+        <widget class="QComboBox" name="device1_chn1_Data">
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <item>
+          <property name="text">
+           <string>1M</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>2M</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>4M</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>5M</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="1" column="7">
+        <widget class="QCheckBox" name="device1_chn1_Rx">
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="text">
+          <string>Rx：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="8">
+        <widget class="QCheckBox" name="device1_chn1_Tx">
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="text">
+          <string>Tx：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QCheckBox" name="device2_check">
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="text">
+          <string>设备2</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLabel" name="label_10">
+         <property name="text">
+          <string>CAN0：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QComboBox" name="device2_chn0_type">
+         <item>
+          <property name="text">
+           <string>CAN</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>CANFD</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="2" column="3">
+        <widget class="QLabel" name="label_11">
+         <property name="text">
+          <string>Arb：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="4">
+        <widget class="QComboBox" name="device2_chn0_Arb">
+         <item>
+          <property name="text">
+           <string>50K</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>100K</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>125K</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>250K</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>500K</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>800K</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>1M</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="2" column="5">
+        <widget class="QLabel" name="label_12">
+         <property name="text">
+          <string>Data：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="6">
+        <widget class="QComboBox" name="device2_chn0_Data">
+         <item>
+          <property name="text">
+           <string>1M</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>2M</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>4M</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>5M</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="2" column="7">
+        <widget class="QCheckBox" name="device2_chn0_Rx">
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="text">
+          <string>Rx：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="8">
+        <widget class="QCheckBox" name="device2_chn0_Tx">
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="text">
+          <string>Tx：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QComboBox" name="device2_index">
+         <property name="minimumSize">
+          <size>
+           <width>30</width>
+           <height>19</height>
+          </size>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <item>
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>1</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>2</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>3</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLabel" name="label_22">
+         <property name="text">
+          <string>CAN1：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QComboBox" name="device2_chn1_type">
+         <item>
+          <property name="text">
+           <string>CAN</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>CANFD</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="3" column="3">
+        <widget class="QLabel" name="label_23">
+         <property name="text">
+          <string>Arb：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="4">
+        <widget class="QComboBox" name="device2_chn1_Arb">
+         <item>
+          <property name="text">
+           <string>50K</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>100K</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>125K</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>250K</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>500K</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>800K</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>1M</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="3" column="5">
+        <widget class="QLabel" name="label_24">
+         <property name="text">
+          <string>Data：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="6">
+        <widget class="QComboBox" name="device2_chn1_Data">
+         <item>
+          <property name="text">
+           <string>1M</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>2M</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>4M</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>5M</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="3" column="7">
+        <widget class="QCheckBox" name="device2_chn1_Rx">
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="text">
+          <string>Rx：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="8">
+        <widget class="QCheckBox" name="device2_chn1_Tx">
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="text">
+          <string>Tx：</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="title">
+       <string>模式选择/ADAS</string>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QCheckBox" name="CycleSend">
+         <property name="text">
+          <string>CycleSend</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="sensor_mode">
+         <item>
+          <property name="text">
+           <string>Sleep</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Standby</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>ADAS</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>LongRangeObject&amp;Freespace(Fusion)</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Reserved</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>ShortRangeObject&amp;Freespace(Fusion)</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Reserved</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>LongRangePointcloud</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>ShortRangePointcloud</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Reserved</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>LongRangeObject&amp;Freespace(5°,noFusion)</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Reserved</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>ShortRangeObject&amp;Freespace(5°,noFusion)</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Reserved</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>LongRangeObject&amp;Freespace(Fusion)&amp;ADAS&amp;Guardrail</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>LongRangeObject&amp;Freespace(5°,noFusion)&amp;ADAS&amp;Guardrail</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="BSD">
+         <property name="text">
+          <string>BSD</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="LCA">
+         <property name="text">
+          <string>LCA</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="DOW">
+         <property name="text">
+          <string>DOW</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="FCTA">
+         <property name="text">
+          <string>FCTA</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="RCTA">
+         <property name="text">
+          <string>RCTA</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_4">
+      <property name="title">
+       <string>启动/关闭/log</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="1">
+        <widget class="QPushButton" name="device_open_close">
+         <property name="text">
+          <string>打开设备</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QPushButton" name="routing_start_stop">
+         <property name="text">
+          <string>转发开启</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3">
+        <widget class="QCheckBox" name="log_check">
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="text">
+          <string>log</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="tableWidget">
+      <row>
+       <property name="text">
+        <string>值</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>车速(m/s)</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>横摆角速度(deg/s)</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>纵向加速度(m/s²)</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>横向加速度(m/s²)</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>方向盘转角(°)</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>挡位</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>544</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+   </widget>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionhelp">
+   <property name="text">
+    <string>help</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
